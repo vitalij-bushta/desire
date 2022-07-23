@@ -1,0 +1,14 @@
+%title-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+$default: #5A5A5A;
+$title-color: #363838;
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+    @return m#{a}n(#{$numbers});
+}
